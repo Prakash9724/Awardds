@@ -78,7 +78,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex h-full items-center">
-            <div>
+            <div className="hidden md:block">
               {navItems.map((item, index) => (
                 <a
                 className="nav-hover-btn" 
